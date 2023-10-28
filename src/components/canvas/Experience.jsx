@@ -2,10 +2,8 @@
 
 import { ContactShadows, Float, MeshDistortMaterial, useGLTF } from '@react-three/drei';
 
-
-
 export function Fourviere({ props }) {
-	const { scene } = useGLTF('/fourviere_noplan.glb')
+	const { scene } = useGLTF('/fourviere_v2.glb')
 
 	return (
 		<>
