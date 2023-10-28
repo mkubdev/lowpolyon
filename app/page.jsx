@@ -4,11 +4,11 @@ import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
 
 const Portfolio = dynamic(() => import('@/components/canvas/Experience').then((mod) => mod.Portfolio), { ssr: false })
-
 const Fourviere = dynamic(() => import('@/components/canvas/Experience').then((mod) => mod.Fourviere), { ssr: false })
 
 // !! Container for the canvas
 // Note: Common is the ambient light and camera
+// Note: Loader is the loading screen/components
 const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.View), {
 	ssr: false,
 	loading: () => (
