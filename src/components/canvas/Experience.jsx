@@ -9,7 +9,7 @@ export function Fourviere({ props }) {
 		<>
 			<Float rotationIntensity={0.9}>
 				<primitive object={scene} {...props} />
-			</Float>
+			</Float >
 
 			<ContactShadows
 				position-y={-2.4}

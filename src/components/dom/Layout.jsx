@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
 
 				//? Where to put correctly the camera?
 				camera={{
-					// position: [5, 2, 5]
+					position: [13, 0, 0]
 				}}
 
 			/>
